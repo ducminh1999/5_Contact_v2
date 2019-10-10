@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgview_avt"
+        android:src="@drawable/avt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#EEF6FA" />
+
+    <TextView
+        android:id="@+id/tv_infor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:text="Nguyen Van A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgview_call"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#1ADB21"
+        android:src="@android:drawable/stat_sys_phone_call" />
+
+</LinearLayout>
+
